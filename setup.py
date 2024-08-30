@@ -6,7 +6,7 @@ def readme():
 
 setup(
     name='tsp_ip',
-    version='0.0.9',
+    version='0.1.0',
     description='TSP-IP (Travelling Salesman Problem integer programing)',
     long_description=readme(),
     long_description_content_type='text/markdown',
