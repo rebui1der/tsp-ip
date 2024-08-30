@@ -45,7 +45,7 @@ def tsp_ip(init: nx.DiGraph | np.ndarray, msg: bool = False) -> (int | float | N
     solver = pl.PULP_CBC_CMD(msg=msg)
 
     # Declare model variables
-    x = [pl.LpVariable(name=f'x_{array_index[i][0]}_{array_index[i][1]}', cat='Binary') for i in array_index]
+    x = [pl.LpVariable(name=f'x_{array_index[i][0]}_{array_index[i][1]}', cat='Integer', lowBound=0, upBound=None) for i in array_index]
 
     # Input the objective function
     model += pl.lpSum([init_graph[array_index[i][0]][array_index[i][1]]['weight'] * x[i] for i in array_index])
