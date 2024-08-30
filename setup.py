@@ -6,7 +6,7 @@ def readme():
 
 setup(
     name='tsp_ip',
-    version='0.0.7',
+    version='0.0.9',
     description='TSP-IP (Travelling Salesman Problem integer programing)',
     long_description=readme(),
     long_description_content_type='text/markdown',
@@ -21,7 +21,8 @@ setup(
         'PuLP>=2.7.0'
     ],
     classifiers=[
-        'Programming Language :: Python :: 3.11'
+        'Programming Language :: Python :: 3.11',
+        'License :: OSI Approved :: GNU General Public License v3 (GPLv3)'
     ],
     python_requires='>=3.11'
 )
