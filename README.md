@@ -9,6 +9,7 @@ Example 1
 
 ```python
 import numpy as np
+import networkx as nx
 from tsp_ip import tsp_ip
 
 n = 20
