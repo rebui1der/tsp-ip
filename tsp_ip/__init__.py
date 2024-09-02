@@ -1,1 +1,1 @@
-from .main import tsp_ip
+from .main import tsp_ip, tsp_mtz
