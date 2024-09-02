@@ -6,7 +6,7 @@ def readme():
 
 setup(
     name='tsp_ip',
-    version='0.1.0',
+    version='0.1.2',
     description='TSP-IP (Travelling Salesman Problem integer programing)',
     long_description=readme(),
     long_description_content_type='text/markdown',
@@ -18,11 +18,11 @@ setup(
     install_requires=[
         'networkx>=3.3',
         'numpy>=1.26.4',
-        'PuLP>=2.7.0'
+        'PuLP>=2.7.0',
     ],
     classifiers=[
         'Programming Language :: Python :: 3.11',
-        'License :: OSI Approved :: GNU General Public License v3 (GPLv3)'
+	'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
     ],
-    python_requires='>=3.11'
+    python_requires='>=3.11',
 )
