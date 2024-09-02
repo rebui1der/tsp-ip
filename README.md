@@ -71,3 +71,10 @@ nx.draw(graph_result, points, width=1, edge_color="red", style="-", with_labels=
 plt.show()
 ```
 
+For performance comparison, the implementation of the model in the Miller–Tucker–Zemlin formulation
+
+```python
+from tsp_ip import tsp_mtz
+```
+
+Feel the difference.
